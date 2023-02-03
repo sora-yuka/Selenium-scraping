@@ -1,0 +1,6 @@
+selenium
+webdriver_manager
+sqlalchemy
+aiohttp
+asyncio
+psycopg2-binary
