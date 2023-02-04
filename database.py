@@ -70,10 +70,10 @@ class EnnouncementPictures(Base):
 engine = create_engine("sqlite:///scrap_data.db", echo=True)
 Base.metadata.create_all(bind=engine)
 """^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"""
-""" Подключение к локальной базе данных и создание таблицю. """
+""" Подключение к локальной базе данных и создание таблиц. """
 
 
-""" Если вы пользуетесь существующей базой данных, то подключите ее следующим обрахом. """
+""" Если вы пользуетесь существующей базой данных, то подключите ее следующим образом. """
 # engine = create_engine("postgresql+psycopg2://user:password@localhost/database", echo=True)
 
 Session = sessionmaker(bind=engine)
