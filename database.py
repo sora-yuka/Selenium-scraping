@@ -69,7 +69,7 @@ class EnnouncementPictures(Base):
     
 engine = create_engine("sqlite:///scrap_data.db", echo=True)
 Base.metadata.create_all(bind=engine)
-"""^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^"""
+""" ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ """
 """ Подключение к локальной базе данных и создание таблиц. """
 
 
