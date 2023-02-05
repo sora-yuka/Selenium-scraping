@@ -14,8 +14,6 @@ ___
 ![Flutter](https://img.shields.io/badge/-Aiohttp-yellow?style=for-the-badge&logo=python)
 
 ![Flutter](https://img.shields.io/badge/-Asyncio-yellow?style=for-the-badge&logo=python)
-
-![Flutter](https://img.shields.io/badge/-psycopg2-binary-yellow?style=for-the-badge&logo=python)
 ___
 #### Для хранения данных использовалась база данных PostgreSql. 
 ___
