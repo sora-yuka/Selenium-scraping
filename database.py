@@ -7,22 +7,22 @@ from sqlalchemy.orm import relationship
 Base = declarative_base()
 
 
-class EnnouncementsData(Base):
+class AnnouncementsData(Base):
     """ Форма создания таблицы в базе данных. """
-    __tablename__ = "ennouncements"
+    __tablename__ = "announcements"
     
     id = Column("id", Integer, primary_key=True)
-    ennouncement = Column("ennouncement", String)
+    announcement = Column("announcement", String)
     created_time = Column(DateTime(timezone=True), server_default=func.now())
     
-    def __init__(self, ennouncement):
-        self.ennouncement = ennouncement
+    def __init__(self, announcement):
+        self.announcement = announcement
         
     def __repr__(self):
-        return f"{self.ennouncement}"
+        return f"{self.announcement}"
     
 
-class EnnouncementPrices(Base):
+class AnnouncementPrices(Base):
     """ Форма для создания таблицы в базе данных. """
     __tablename__ = "prices"
     
@@ -37,7 +37,7 @@ class EnnouncementPrices(Base):
         return f"{self.price}"
 
 
-class EnnouncementPosts(Base):
+class AnnouncementPosts(Base):
     """ Форма для создания таблицы в базе данных. """
     __tablename__ = "posts"
     
@@ -52,7 +52,7 @@ class EnnouncementPosts(Base):
         return f"{self.date_posted}"
     
 
-class EnnouncementPictures(Base):
+class AnnouncementPictures(Base):
     """ Форма для создания таблицы в базе данных. """
     __tablename__ = "pictures"
     
