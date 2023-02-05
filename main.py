@@ -64,6 +64,7 @@ def main():
     BASE_URL = "https://www.kijiji.ca/b-apartments-condos/city-of-toronto/c37l1700273"
     get_source_code(BASE_URL)  
     asyncio.run(get_html_page(BASE_URL))
-    
+
+""" Запуск основного проекта. """
 if __name__ == "__main__":
     main()
