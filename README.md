@@ -2,7 +2,7 @@
 
 ### ***kijiji*** - это канадский сайт объявлений. Были спарсены объявления :newspaper:, url картинкок :camera:, цены объявлений :money_with_wings: и дата создания поста :date:.
 ___
-## Использовальнные библиотеки.
+### Использовальнные библиотеки.
 
 
 ![Flutter](https://img.shields.io/badge/-Selenium-yellow?style=for-the-badge&logo=python) 
@@ -17,7 +17,7 @@ ___
 
 ![Flutter](https://img.shields.io/badge/-psycopg2-yellow?style=for-the-badge&logo=python)
 ___
-### Для хранения данных использовалась база данных PostgreSql. 
+#### Для хранения данных использовалась база данных PostgreSql. 
 ___
 
 ### Чтобы запустить проект необходимо:
